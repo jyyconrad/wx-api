@@ -82,7 +82,7 @@ CREATE TABLE `msg_reply_rule`  (
 -- ----------------------------
 -- Records of msg_reply_rule
 -- ----------------------------
-INSERT INTO `msg_reply_rule` VALUES (1, '关注公众号', 'subscribe', 'text', '你好，欢迎关注！\n<a href=\"https://github.com/niefy\">点击链接查看我的主页</a>', 1, '关注回复', '00:00:00', '23:59:59');
+INSERT INTO `msg_reply_rule` VALUES (1, '关注公众号', 'subscribe', 'text', '你好，欢迎关注！\n<a href=\"https://github.com/jconrad\">点击链接查看我的主页</a>', 1, '关注回复', '00:00:00', '23:59:59');
 INSERT INTO `msg_reply_rule` VALUES (9, '人工-9点前', '人工,客服', 'text', '您好，人工在线时间为工作日9:00-17:30。现在是非人工时段，您的咨询，我们将于下一工作日回复。', 1, '人工客服', '00:00:00', '09:00:00');
 INSERT INTO `msg_reply_rule` VALUES (10, '人工-五点半后', '人工,客服', 'text', '您好，人工在线时间为工作日9:00-17:30。现在是非人工时段，您的咨询，我们将于下一工作日回复。', 1, '人工客服', '17:30:00', '23:59:59');
 INSERT INTO `msg_reply_rule` VALUES (11, '人工-工作时间', '人工', 'text', '人工在线时间为工作日9:00-17:30。如您于工作时间咨询，我们将于工作时间内回复您！', 1, '人工客服', '09:00:00', '17:30:00');
@@ -277,7 +277,7 @@ CREATE TABLE `sys_user`  (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES (1, 'admin', 'cdac762d0ba79875489f6a8b430fa8b5dfe0cdd81da38b80f02f33328af7fd4a', 'YzcmCZNvbXocrsz9dm8e', 'niefy@qq.com', '16666666666', 1, 1, '2016-11-11 11:11:11');
+INSERT INTO `sys_user` VALUES (1, 'admin', 'cdac762d0ba79875489f6a8b430fa8b5dfe0cdd81da38b80f02f33328af7fd4a', 'YzcmCZNvbXocrsz9dm8e', 'jconrad@qq.com', '16666666666', 1, 1, '2016-11-11 11:11:11');
 
 -- ----------------------------
 -- Table structure for sys_user_role

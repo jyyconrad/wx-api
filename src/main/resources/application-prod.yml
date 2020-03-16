@@ -40,10 +40,10 @@ spring:
 wx:
     mp:
         configs:
-            -   appid:
-                secret:
-                token:
-                aesKey:
+            -   appid: wx654ad39c8e11e752
+                secret: 18121a707e23b6aa2a473b1ba0b1a78b
+                token: jyyconrad
+                aesKey: 111
     pay:
         appId:  #微信公众号或者小程序等的appid
         mchId:  #微信支付商户号
@@ -57,4 +57,4 @@ email:
     password:
     host: smtp.zoho.com.cn
     port: 465
-    notificationEmail: niefy@qq.com
+    notificationEmail: jconrad@qq.com

@@ -23,6 +23,7 @@
 		<mssql.version>4.0</mssql.version>
 		<oracle.version>11.2.0.3</oracle.version>
 		<druid.version>1.1.13</druid.version>
+		<quartz.version>2.3.0</quartz.version>
 		<commons.lang.version>2.6</commons.lang.version>
 		<commons.io.version>2.5</commons.io.version>
 		<commons.codec.version>1.10</commons.codec.version>
@@ -68,6 +69,10 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-quartz</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.github.binarywang</groupId>
 			<artifactId>weixin-java-mp</artifactId>
 			<version>${weixin-java.version}</version>
@@ -78,6 +83,23 @@
 					<artifactId>*</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<version>${quartz.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.mchange</groupId>
+					<artifactId>c3p0</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz-jobs</artifactId>
+			<version>${quartz.version}</version>
+
 		</dependency>
 		<dependency>
 			<groupId>com.github.binarywang</groupId>
